@@ -14,6 +14,7 @@ class MainMenuViewController: UITableViewController {
     let sections = [
         ("Async / Await", [
             "Basic Async Function",
+            "Calling Async Function",
             "Async Networking"
         ]),
         ("Task", [
@@ -97,6 +98,10 @@ class MainMenuViewController: UITableViewController {
             navigationController?.pushViewController(vc, animated: true)
         } else if indexPath.section == 0 && indexPath.row == 1 {
             let vc = storyboardRef.instantiateViewController(withIdentifier: "CallingAsyncFunctionsViewController") as! CallingAsyncFunctionsViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 0 && indexPath.row == 2 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "AsyncNetworkingViewController") as! AsyncNetworkingViewController
             
             navigationController?.pushViewController(vc, animated: true)
         }
