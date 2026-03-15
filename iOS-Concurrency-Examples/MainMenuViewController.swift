@@ -104,6 +104,38 @@ class MainMenuViewController: UITableViewController {
             let vc = storyboardRef.instantiateViewController(withIdentifier: "AsyncNetworkingViewController") as! AsyncNetworkingViewController
             
             navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 1 && indexPath.row == 0 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "CreatingTasksViewController") as! CreatingTasksViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 1 && indexPath.row == 1 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "TaskCancellationViewController") as! TaskCancellationViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 1 && indexPath.row == 2 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "TaskPriorityViewController") as! TaskPriorityViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 2 && indexPath.row == 0 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "MainActorUIUpdateViewController") as! MainActorUIUpdateViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 2 && indexPath.row == 1 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "MainActorFunctionsViewController") as! MainActorFunctionsViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 2 && indexPath.row == 2 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "MainActorClassesViewController") as! MainActorClassesViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 3 && indexPath.row == 0 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "AsyncLetViewController") as! AsyncLetViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 3 && indexPath.row == 1 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "TaskGroupViewController") as! TaskGroupViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

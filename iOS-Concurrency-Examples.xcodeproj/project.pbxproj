@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1028CED2F675E2500775F75 /* MainActorUIUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1028CEC2F675E2500775F75 /* MainActorUIUpdateViewController.swift */; };
+		C1028CEF2F67687300775F75 /* MainActorFunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1028CEE2F67687300775F75 /* MainActorFunctionsViewController.swift */; };
+		C1028CF12F676B1300775F75 /* MainActorClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1028CF02F676B1200775F75 /* MainActorClassesViewController.swift */; };
+		C1028CF42F6773F000775F75 /* AsyncLetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1028CF32F6773F000775F75 /* AsyncLetViewController.swift */; };
+		C1028CF62F67787800775F75 /* TaskGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1028CF52F67787800775F75 /* TaskGroupViewController.swift */; };
 		C15F4BA42F642C1500AB8F1B /* CallingAsyncFunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F4BA32F642C1500AB8F1B /* CallingAsyncFunctionsViewController.swift */; };
 		C15F4BA62F642C3600AB8F1B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F4BA52F642C3300AB8F1B /* Extensions.swift */; };
 		C18F57102F63821400C6BC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18F57072F63821400C6BC50 /* Assets.xcassets */; };
@@ -17,9 +22,17 @@
 		C18F57162F63821400C6BC50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18F570E2F63821400C6BC50 /* SceneDelegate.swift */; };
 		C18F57182F63827D00C6BC50 /* BasicAsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18F57172F63827D00C6BC50 /* BasicAsyncViewController.swift */; };
 		C1D51F342F662AD3000AF4E0 /* AsyncNetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D51F332F662AD3000AF4E0 /* AsyncNetworkingViewController.swift */; };
+		C1D51F372F6648B0000AF4E0 /* CreatingTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D51F362F6648B0000AF4E0 /* CreatingTasksViewController.swift */; };
+		C1D51F3B2F664BA4000AF4E0 /* TaskCancellationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D51F3A2F664BA4000AF4E0 /* TaskCancellationViewController.swift */; };
+		C1D51F3D2F664FF5000AF4E0 /* TaskPriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D51F3C2F664FF5000AF4E0 /* TaskPriorityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1028CEC2F675E2500775F75 /* MainActorUIUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorUIUpdateViewController.swift; sourceTree = "<group>"; };
+		C1028CEE2F67687300775F75 /* MainActorFunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorFunctionsViewController.swift; sourceTree = "<group>"; };
+		C1028CF02F676B1200775F75 /* MainActorClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorClassesViewController.swift; sourceTree = "<group>"; };
+		C1028CF32F6773F000775F75 /* AsyncLetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetViewController.swift; sourceTree = "<group>"; };
+		C1028CF52F67787800775F75 /* TaskGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupViewController.swift; sourceTree = "<group>"; };
 		C15F4BA32F642C1500AB8F1B /* CallingAsyncFunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingAsyncFunctionsViewController.swift; sourceTree = "<group>"; };
 		C15F4BA52F642C3300AB8F1B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C18F56EE2F637DA800C6BC50 /* iOS-Concurrency-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Concurrency-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +45,9 @@
 		C18F570E2F63821400C6BC50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C18F57172F63827D00C6BC50 /* BasicAsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAsyncViewController.swift; sourceTree = "<group>"; };
 		C1D51F332F662AD3000AF4E0 /* AsyncNetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncNetworkingViewController.swift; sourceTree = "<group>"; };
+		C1D51F362F6648B0000AF4E0 /* CreatingTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingTasksViewController.swift; sourceTree = "<group>"; };
+		C1D51F3A2F664BA4000AF4E0 /* TaskCancellationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCancellationViewController.swift; sourceTree = "<group>"; };
+		C1D51F3C2F664FF5000AF4E0 /* TaskPriorityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriorityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1028CEB2F675E1A00775F75 /* Main Actor */ = {
+			isa = PBXGroup;
+			children = (
+				C1028CEC2F675E2500775F75 /* MainActorUIUpdateViewController.swift */,
+				C1028CEE2F67687300775F75 /* MainActorFunctionsViewController.swift */,
+				C1028CF02F676B1200775F75 /* MainActorClassesViewController.swift */,
+			);
+			path = "Main Actor";
+			sourceTree = "<group>";
+		};
+		C1028CF22F6773DD00775F75 /* Structured Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				C1028CF32F6773F000775F75 /* AsyncLetViewController.swift */,
+				C1028CF52F67787800775F75 /* TaskGroupViewController.swift */,
+			);
+			path = "Structured Concurrency";
+			sourceTree = "<group>";
+		};
 		C18F56E52F637DA700C6BC50 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +105,9 @@
 				C18F570C2F63821400C6BC50 /* Main.storyboard */,
 				C18F570D2F63821400C6BC50 /* MainMenuViewController.swift */,
 				C1D51F302F662A76000AF4E0 /* AsyncAwait */,
+				C1D51F352F664870000AF4E0 /* Task */,
+				C1028CEB2F675E1A00775F75 /* Main Actor */,
+				C1028CF22F6773DD00775F75 /* Structured Concurrency */,
 				C18F57082F63821400C6BC50 /* Info.plist */,
 				C18F57072F63821400C6BC50 /* Assets.xcassets */,
 				C15F4BA52F642C3300AB8F1B /* Extensions.swift */,
@@ -85,6 +123,16 @@
 				C1D51F332F662AD3000AF4E0 /* AsyncNetworkingViewController.swift */,
 			);
 			path = AsyncAwait;
+			sourceTree = "<group>";
+		};
+		C1D51F352F664870000AF4E0 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				C1D51F362F6648B0000AF4E0 /* CreatingTasksViewController.swift */,
+				C1D51F3A2F664BA4000AF4E0 /* TaskCancellationViewController.swift */,
+				C1D51F3C2F664FF5000AF4E0 /* TaskPriorityViewController.swift */,
+			);
+			path = Task;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,10 +210,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18F57182F63827D00C6BC50 /* BasicAsyncViewController.swift in Sources */,
+				C1028CED2F675E2500775F75 /* MainActorUIUpdateViewController.swift in Sources */,
 				C1D51F342F662AD3000AF4E0 /* AsyncNetworkingViewController.swift in Sources */,
+				C1028CEF2F67687300775F75 /* MainActorFunctionsViewController.swift in Sources */,
+				C1D51F372F6648B0000AF4E0 /* CreatingTasksViewController.swift in Sources */,
+				C1028CF42F6773F000775F75 /* AsyncLetViewController.swift in Sources */,
 				C15F4BA62F642C3600AB8F1B /* Extensions.swift in Sources */,
 				C15F4BA42F642C1500AB8F1B /* CallingAsyncFunctionsViewController.swift in Sources */,
 				C18F57142F63821400C6BC50 /* AppDelegate.swift in Sources */,
+				C1028CF12F676B1300775F75 /* MainActorClassesViewController.swift in Sources */,
+				C1028CF62F67787800775F75 /* TaskGroupViewController.swift in Sources */,
+				C1D51F3D2F664FF5000AF4E0 /* TaskPriorityViewController.swift in Sources */,
+				C1D51F3B2F664BA4000AF4E0 /* TaskCancellationViewController.swift in Sources */,
 				C18F57152F63821400C6BC50 /* MainMenuViewController.swift in Sources */,
 				C18F57162F63821400C6BC50 /* SceneDelegate.swift in Sources */,
 			);
