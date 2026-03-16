@@ -88,7 +88,7 @@ final class AsyncLetViewController: UIViewController {
 
         print("A started on:", Thread.current)
 
-        try? await Task.sleep(nanoseconds: 2_000_000_000)
+        await Task.sleep(seconds: 2)
 
         print("A finished")
 
@@ -99,7 +99,7 @@ final class AsyncLetViewController: UIViewController {
 
         print("B started on:", Thread.current)
 
-        try? await Task.sleep(nanoseconds: 2_000_000_000)
+        await Task.sleep(seconds: 2)
 
         print("B finished")
 

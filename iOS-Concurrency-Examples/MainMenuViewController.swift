@@ -136,6 +136,22 @@ class MainMenuViewController: UITableViewController {
             let vc = storyboardRef.instantiateViewController(withIdentifier: "TaskGroupViewController") as! TaskGroupViewController
             
             navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 4 && indexPath.row == 0 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "ActorIsolationViewController") as! ActorIsolationViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 4 && indexPath.row == 1 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "ActorStateAccessViewController") as! ActorStateAccessViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 5 && indexPath.row == 0 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "TaskSleepViewController") as! TaskSleepViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.section == 5 && indexPath.row == 1 {
+            let vc = storyboardRef.instantiateViewController(withIdentifier: "TaskYieldViewController") as! TaskYieldViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

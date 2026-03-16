@@ -40,7 +40,7 @@ final class TaskGroupViewController: UIViewController {
 
                     print("Task \(i) started on:", Thread.current)
 
-                    try? await Task.sleep(nanoseconds: UInt64(i) * 1_000_000_000)
+                    await Task.sleep(seconds: Double(i))
 
                     print("Task \(i) finished")
 

@@ -37,7 +37,7 @@ final class MainActorClassesViewController: UIViewController {
 
         print("Fetching data on:", Thread.current)
 
-        try? await Task.sleep(nanoseconds: 2_000_000_000)
+        await Task.sleep(seconds: 2)
 
         print("Finished fetching on:", Thread.current)
 

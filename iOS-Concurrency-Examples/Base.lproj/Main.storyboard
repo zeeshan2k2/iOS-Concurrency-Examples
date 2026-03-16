@@ -453,6 +453,134 @@
             </objects>
             <point key="canvasLocation" x="134" y="2420"/>
         </scene>
+        <!--Actor Isolation View Controller-->
+        <scene sceneID="Ruo-bX-wYN">
+            <objects>
+                <viewController storyboardIdentifier="ActorIsolationViewController" id="t49-we-wT5" customClass="ActorIsolationViewController" customModule="iOS_Concurrency_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V3O-Sp-bNv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZ9-3b-rR2">
+                                <rect key="frame" x="135.33333333333334" y="401" width="122.66666666666666" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="atE-cv-kuj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Run Example"/>
+                                <connections>
+                                    <action selector="runExample:" destination="t49-we-wT5" eventType="touchUpInside" id="s1K-WU-2uy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="u1j-Zf-R7p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jZ9-3b-rR2" firstAttribute="centerY" secondItem="V3O-Sp-bNv" secondAttribute="centerY" id="alI-Ld-Aya"/>
+                            <constraint firstItem="jZ9-3b-rR2" firstAttribute="centerX" secondItem="V3O-Sp-bNv" secondAttribute="centerX" id="cv4-iE-UQd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aE4-ft-7rS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063" y="2420"/>
+        </scene>
+        <!--Actor State Access View Controller-->
+        <scene sceneID="Lfp-LW-Sjp">
+            <objects>
+                <viewController storyboardIdentifier="ActorStateAccessViewController" id="11c-uS-UdX" customClass="ActorStateAccessViewController" customModule="iOS_Concurrency_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hbe-nH-GjW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPg-LQ-8Ba">
+                                <rect key="frame" x="135.33333333333334" y="401" width="122.66666666666666" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="sri-yZ-F19"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Run Example"/>
+                                <connections>
+                                    <action selector="runExample:" destination="11c-uS-UdX" eventType="touchUpInside" id="bfi-Pw-LTg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T7N-Pq-MH6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tPg-LQ-8Ba" firstAttribute="centerY" secondItem="Hbe-nH-GjW" secondAttribute="centerY" id="IXX-jf-46R"/>
+                            <constraint firstItem="tPg-LQ-8Ba" firstAttribute="centerX" secondItem="Hbe-nH-GjW" secondAttribute="centerX" id="Ycx-lL-mVp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQU-jm-71q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076" y="2420"/>
+        </scene>
+        <!--Task Sleep View Controller-->
+        <scene sceneID="FQS-ns-6k9">
+            <objects>
+                <viewController storyboardIdentifier="TaskSleepViewController" id="rRt-A1-6Qc" customClass="TaskSleepViewController" customModule="iOS_Concurrency_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VlC-kb-ub8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOS-wQ-5fe">
+                                <rect key="frame" x="135.33333333333334" y="401" width="122.66666666666666" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="U5i-q8-gQl"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Run Example"/>
+                                <connections>
+                                    <action selector="runExample:" destination="rRt-A1-6Qc" eventType="touchUpInside" id="gqw-p2-7Ih"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fTM-pz-ULx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qOS-wQ-5fe" firstAttribute="centerY" secondItem="VlC-kb-ub8" secondAttribute="centerY" id="FhG-Nz-tbh"/>
+                            <constraint firstItem="qOS-wQ-5fe" firstAttribute="centerX" secondItem="VlC-kb-ub8" secondAttribute="centerX" id="I8n-g6-hLd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbp-gP-kJb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3024" y="2420"/>
+        </scene>
+        <!--Task Yield View Controller-->
+        <scene sceneID="bvr-4Y-RiI">
+            <objects>
+                <viewController storyboardIdentifier="TaskYieldViewController" id="Jux-i1-pmg" customClass="TaskYieldViewController" customModule="iOS_Concurrency_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9zd-Cm-oJq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Bo-dg-lbK">
+                                <rect key="frame" x="135.33333333333334" y="401" width="122.66666666666666" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="SZI-lm-sfa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Run Example"/>
+                                <connections>
+                                    <action selector="runExample:" destination="Jux-i1-pmg" eventType="touchUpInside" id="xpP-Sk-tug"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sJ1-0s-u3C"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5Bo-dg-lbK" firstAttribute="centerX" secondItem="9zd-Cm-oJq" secondAttribute="centerX" id="Sgf-05-6ep"/>
+                            <constraint firstItem="5Bo-dg-lbK" firstAttribute="centerY" secondItem="9zd-Cm-oJq" secondAttribute="centerY" id="frg-cl-ho1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lkt-RU-wC8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="3219"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
